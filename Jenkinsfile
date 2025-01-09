@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_TAG = "20241003"
-        IMAGE_NAME = "manojkrishnappa/fullstack"
+        IMAGE_NAME = "Vadiraj-Raikar/fullstack"
         AWS_REGION = "us-east-1"
         CLUSTER_NAME = "microdegree-cluster"
     }
@@ -16,7 +16,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ManojKRISHNAPPA/complete-cicd-project-microdegree.git'
+                git branch: 'main', url: 'https://github.com/Vadiraj-Raikar/complete-cicd-project-microdegree.git'
             }
         }
 
