@@ -119,8 +119,8 @@ pipeline {
                     subject: "${jobName} - Build ${buildNumber} - ${pipelineStatus.toUpperCase()}",
                     body: body,
                     to: 'jagdishsiddaiah2408@gmail.com',
-                    from: 'manojdevopstest@gmail.com',
-                    replyTo: 'manojdevopstest@gmail.com',
+                    from: 'vadirajraikar2000@gmail.com',
+                    replyTo: 'vadirajraikar2000@gmail.com',
                     mimeType: 'text/html',
                     attachmentsPattern: 'trivy-image-report.html'
                 )
